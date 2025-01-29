@@ -1,0 +1,6 @@
+1 - id 
+2 - name 
+3 - Phnumber 
+4 - email 
+5 - etx
+6 -  orders

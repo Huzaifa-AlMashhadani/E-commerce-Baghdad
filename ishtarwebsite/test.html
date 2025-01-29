@@ -1,0 +1,132 @@
+<?php
+session_start();
+print_r($_SESSION)
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- fonts link  -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght,HEXP@160..700,0..100&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/main.css">
+   <title>Ishtar</title>
+</head>
+<body>
+   <div class="LodeR"><span class="loader"></span></div>
+
+  <div class="home allitems" id="HomePage allitems">
+   <div class="container">
+      <nav class="navbar">
+         <h2 class="logo">عشتار</h2>
+         <ul class="menu-links">
+            <li><a href="index.php">الرئيسيه</a></li>
+            <li><a href="index.php#servises">الخدمات</a></li>
+            <li><a href="#items">العناصر</a></li>
+            <li><a href="index.php#call">اتصل بنا</a></li>
+         </ul>
+      </nav>
+   </div>
+  </div>
+
+  <!-- start items page  -->
+ <div class="itmes allitem" id="items" style="position: relative;">
+   <div class="container" style="position:unset;">
+      <div class="saerch">
+         <input type="search" name="saerch" id="saerch" style="box-shadow: none; border: 1px solid #33333375;"><h4>    <i class="fa-solid fa-magnifying-glass"></i></h4>
+      </div>
+
+   </div>
+   <div class="items-box" style="box-shadow: none; display: grid;     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;      height: 80vh; align-content: space-between;
+    justify-content: space-evenly;">
+
+   
+
+
+
+
+
+
+      <div class="itme" id="Item" style="width: 300px;
+      box-shadow: #727272 1px 1px 9px !important;
+      padding: 15px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+
+      justify-content: space-between;
+      align-items: stretch;">
+         <a href="showItem.php" class="itme-box" style=" display: block; width: 100%;">
+            <img src="images/item-1.jpg" alt="" >
+         </a>
+         <p id="ItemName">كفر </p>
+         <h2>منتج</h2>
+         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi recusandae laboriosam sed suscipit porro neque ipsa a consectetur blanditiis, at ea possimus praesentium officia error iste nam fugit similique labore.</h5>
+         <div class="price-show-item" style="display: flex; align-items: center; justify-content: space-between;">
+            <span style="font-size: 25px;">133.000 IQD</span>
+            <a href="" style="    display: block;
+            text-decoration: none;
+            color: #fff;
+            background: var(--main-color);
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 17px 0 0 0;
+        ">links</a>
+         </div>
+      </div>
+
+
+
+
+   
+
+
+
+
+
+
+      <div class="itme" id="Item" style="width: 300px;
+      box-shadow: #727272 1px 1px 9px !important;
+      padding: 15px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+
+      justify-content: space-between;
+      align-items: stretch;">
+         <a href="showItem.php" class="itme-box" style=" display: block; width: 100%;">
+            <img src="images/item-1.jpg" alt="" >
+         </a>
+         <p id="ItemName">كفر </p>
+         <h2>منتج</h2>
+         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi recusandae laboriosam sed suscipit porro neque ipsa a consectetur blanditiis, at ea possimus praesentium officia error iste nam fugit similique labore.</h5>
+         <div class="price-show-item" style="display: flex; align-items: center; justify-content: space-between;">
+            <span style="font-size: 25px;">133.000 IQD</span>
+            <a href="" style="    display: block;
+            text-decoration: none;
+            color: #fff;
+            background: var(--main-color);
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 17px 0 0 0;
+        ">links</a>
+         </div>
+      </div>
+
+
+
+
+
+
+   </div>
+</div>
+<!-- end items page  -->
+
+
+
+   <script src="js/main.js"></script>
+</body>
+</html>
